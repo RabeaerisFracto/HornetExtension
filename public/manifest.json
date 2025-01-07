@@ -1,0 +1,28 @@
+{
+    "manifest_version": 3,
+    "name": "HornetExtension",
+    "version": "0.1.0",
+    "description": "Cambio tema de Hornet",
+    "icons": {
+        "48": "hornetGolden.png",
+        "128": "hornetGolden.png"
+    },
+
+    "action": {
+        "default_popup": "index.html",
+        "default_icon": {
+            "16": "hornetGolden.png",
+            "48": "hornetGolden.png",
+            "128": "hornetGolden.png"
+        }
+    },
+    "permissions": [
+        "storage",
+        "activeTab",
+        "scripting"
+    ],
+    "host_permissions": [
+        "https://*/*",
+        "http://*/*"
+    ]
+}
